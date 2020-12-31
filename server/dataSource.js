@@ -2,7 +2,7 @@ import { RESTDataSource } from 'apollo-datasource-rest'
 import camelCaseKeys from 'camelcase-keys'
 
 const COIN_MARKET_CAP_API_URL = 'https://pro-api.coinmarketcap.com/'
-const COIN_MARKET_CAP_API_ACCESS_KEY = '412707c7-3a71-4119-8a06-89f89de6f7da'
+const COIN_MARKET_CAP_API_ACCESS_KEY = 'PLEASE ADD API KEY HERE'
 
 export class CoinMarketCapAPI extends RESTDataSource {
   constructor() {
