@@ -2,17 +2,29 @@
   "name": "engineering-test",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
+    "@apollo/client": "^3.3.6",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "apollo-datasource-rest": "^0.9.6",
+    "apollo-server": "^2.19.1",
+    "camelcase-keys": "^6.2.2",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0 ",
     "react-scripts": "4.0.1",
+    "react-test-renderer": "^17.0.1",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently --kill-others --names \"SERVER,CLIENT\" -c \"bgBlue,bgGreen\" \"npm run start-server\" \"npm run start-client\"",
+    "start-client": "react-scripts start",
+    "start-server": "node server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "nodemon": "^2.0.6"
   }
 }
