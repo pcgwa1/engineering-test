@@ -2,11 +2,6 @@ import { gql, makeExecutableSchema } from 'apollo-server'
 
 const typeDefs = gql`
 
-  type Joke {
-    id: Int!
-    value: String!
-  }
-
   type Usd {
     price: Float
     last_updated: String
