@@ -15,6 +15,10 @@ Cryptocurrency Converter is an application that accepts a cryptocurrency code (e
 node js >= 12\
 Apollo Server
 
+```
+Please add a API key for Coin Market Cap by visiting https://pro.coinmarketcap.com/account and generating an API key.
+Copy the key and add it to server/datasource.js COIN_MARKET_CAP_API_ACCESS_KEY
+```
 
 ## Frontend
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
