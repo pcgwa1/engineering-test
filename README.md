@@ -26,8 +26,8 @@ Apollo Client
 
 In the project directory, you can run:
 
-### `yarn install`
-Adds all dependencies
+### `yarn setup`
+Installs all dependencies and starts the application.
 
 ### `yarn start`
 
