@@ -2,7 +2,7 @@
 ### `Author: Peter C Gwaka`
 ## About
 
-Cryptocurrency Converter is an application that accepts a cryptocurrency code (e.g BTC) and display's its current quote in the following currencies:\
+Cryptocurrency Converter is an application that accepts a cryptocurrency code (e.g BTC) and display's its current quote in the following currencies:
 ### `USD`
 ### `EUR`
 ### `BRL`

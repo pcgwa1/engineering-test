@@ -48,7 +48,7 @@ In order to track down a performance issue in production, one must understand wh
 2) Function performace
 3) Query performace
 
-Ui rendering performace can be measured using tools such as lighthouse audit. All performance issues require some kind of optimization to be carried out to the affected component or function. Increasing the logging level for your application generates more details regarding any issue the developer is tracking. Queries can be monitored and information about their health and duration can be retrieved to understand their performance.
+Ui rendering performace can be measured using tools such as lighthouse audit. All performance issues require some kind of optimization to be carried out to the affected component or function. Increasing the logging level for your application generates more detail regarding any issue the developer is tracking. Queries can be monitored and information about their health and duration can be retrieved to understand their performance.
 
 I have tracked down performace issues in production.
 
